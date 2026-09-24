@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Merumi</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f4f5; color: #2a2a30;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .brand { font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 13px; color: #6b7280; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 8px 0 4px; }
+  .updated { color: #6b7280; font-size: 14px; margin: 0 0 24px; }
+  .intro { color: #3f3f46; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p { margin: 8px 0; color: #3f3f46; }
+  footer { margin-top: 48px; color: #9ca3af; font-size: 13px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #17171b; color: #e4e4e7; }
+    .intro, p { color: #c4c4cc; }
+    .brand, .updated, footer { color: #8b8b93; }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <p class="brand">Merumi</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Updated: 23 September 2026</p>
+    <p class="intro">We respect your privacy. Most of your learning data is kept locally on your device. If you create an account it is also synced to the cloud so you do not lose your progress. Three features — the word scanner, the video breakdown and the sentence check — cannot work on the device alone and reach out to our server and to a third-party artificial intelligence service; exactly what is sent is set out in section 3.</p>
+    <h2>1. Data on your device</h2>
+    <p>Your learning progress, settings, streak, daily statistics and chosen level are stored on your device. Deleting the App deletes this local data. If you are signed in, the same data is also held in the cloud — see section 4.</p>
+    <h2>2. Screen Time</h2>
+    <p>To lock apps we use Apple's system Family Controls interface. You choose the apps in Apple's own system dialog; the list of chosen apps is encrypted by the system and is not disclosed to us — we cannot see which apps you picked. That data is used only on your device, to show the lock screen, and never leaves it.</p>
+    <h2>3. Artificial intelligence features</h2>
+    <p>Three features of the App cannot work on the device alone: what you give them is sent to our server, which in turn calls a third-party artificial intelligence service, Google Gemini. Below is exactly what leaves your device in each case, and what happens to it afterwards.</p>
+    <p>The word scanner. When you take a photo, the photo is sent to our server and passed to Gemini so that the object can be recognised and its name returned with a translation. The photo is used only to answer that one request: we do not store it and do not attach it to your account. Only the resulting word is kept, and only if you choose to add it to My words.</p>
+    <p>The video breakdown. When you paste a link to a clip, upload a video file, or share a clip into Merumi from another app's share sheet, that link or file is sent to our processing server. There, only the audio track is extracted — the picture is not used and is never passed to the AI service — and that audio is sent to Gemini for transcription and translation. The file itself is held only temporarily, in the server's memory, and is deleted no later than 15 minutes afterwards. The finished transcript is cached on our server and is keyed to the clip itself, not to you or your account, so that the same clip does not have to be processed again for every user.</p>
+    <p>The sentence-writing exercise. The sentence you wrote, together with the words being checked, is sent to our server and passed to Gemini so that a correction, a translation and hints can be returned. The text of your sentence is not stored.</p>
+    <p>Google acts here as our sub-processor and handles this data under its own developer terms. We do not use what you send for advertising, and we do not pass it to anyone other than the service providers listed in section 8.</p>
+    <p>Please do not send anything through these features that you are not willing to have processed, and do not upload someone else's video unless you have the right to do so.</p>
+    <h2>4. Account and cloud sync</h2>
+    <p>Creating an account is optional, but it keeps your progress safe and syncs it across your devices. You can sign in by email or with Sign in with Apple.</p>
+    <p>If you create an account, we store your email address (or your Sign in with Apple identifier) and your learning data — progress, settings, streak and statistics — along with the words you have saved to My words from the scanner, from the exercises or from a video breakdown, together with their translations. All of it is held on a secure server; our cloud provider is Supabase. We do not use this data for advertising. Your password is stored only in hashed form, and the list of apps you chose to lock is not held in the cloud at all.</p>
+    <p>You can delete your account and all of its cloud data at any time: Profile → Delete account. This cannot be undone.</p>
+    <h2>5. Usage analytics</h2>
+    <p>To improve the App we may collect usage statistics (for example: screens opened, sessions started and finished, the lock being switched on) through a product analytics service. These events contain neither your name, nor your email, nor the words you are learning, nor the sentences you write, nor the contents of any clip you have broken down.</p>
+    <p>Until you create an account these events are tied to a generated device identifier rather than to you personally. Once you sign in they are additionally linked to your account identifier, so that one person using two devices is not counted as two people. That identifier is not your name and not your email.</p>
+    <h2>6. Purchases</h2>
+    <p>Subscriptions are handled by the App Store and by our subscription-management provider (RevenueCat). Payment details (your card and so on) are processed by Apple — we have no access to them and do not store them.</p>
+    <h2>7. Notifications</h2>
+    <p>The App sends local notifications: study reminders (if you have turned them on) and a functional notification that opens the unlock quiz for a locked app. These are composed on your device and are not sent anywhere.</p>
+    <p>If you allow notifications, the App also registers with our server a unique device token issued by Apple, along with your platform and interface language. This is so we can push you a notice when a video breakdown is ready, in a language you read. The token contains no personal data of yours and is deleted from our server as soon as Apple reports that it is no longer valid.</p>
+    <p>Any notification can be turned off in your device settings.</p>
+    <h2>8. Who we share data with</h2>
+    <p>We use the service providers listed below (our sub-processors). Each receives only what its own job requires:</p>
+    <p>• Apple — the App Store and payment processing, Sign in with Apple, delivery of push notifications (APNs), and the system Screen Time feature.</p>
+    <p>• Supabase — storage of your account and learning data, and the App's backend.</p>
+    <p>• Google — the Gemini artificial intelligence service (recognising a word in a photo, transcribing audio from a video, checking sentences) and Google Cloud Run (video processing: fetching the clip and extracting its audio track).</p>
+    <p>• RevenueCat — subscription management and entitlement checks.</p>
+    <p>• A product analytics service — usage statistics, as described in section 5.</p>
+    <p>We do not share your data with anyone else.</p>
+    <h2>9. How long we keep data</h2>
+    <p>• Local data on your device — until you delete the App or reset your progress.</p>
+    <p>• Account data (email, progress, settings, My words) — for as long as the account exists. Deleting the account deletes it irreversibly.</p>
+    <p>• Scanner photos and the text of your sentences — not stored at all; they exist only for the duration of a single request.</p>
+    <p>• Video files and the audio extracted from them — no more than 15 minutes in the processing server's temporary memory, after which they are deleted.</p>
+    <p>• Clip transcripts — held as a cache keyed to the clip, not to a user.</p>
+    <p>• Your notification token — for as long as the device remains a valid recipient.</p>
+    <p>• Analytics events — according to the analytics service's own retention period.</p>
+    <h2>10. We do not sell your data</h2>
+    <p>We do not sell or pass personal data to third parties for advertising. We do not collect data for targeted advertising, and we do not use your material to train models of our own.</p>
+    <h2>11. Children</h2>
+    <p>The App is not intended to collect personal data from children.</p>
+    <h2>12. Your rights</h2>
+    <p>You are in full control of your data: resetting your progress in the App, or deleting the App, erases the local data from your device. If you created an account, you can delete it and all the associated cloud data at any time: Profile → Delete account.</p>
+    <p>You may also request a copy of the data we hold about you, or its deletion, by writing to us at galekkarmanov@gmail.com.</p>
+    <h2>13. Changes to this policy</h2>
+    <p>We may update this Policy. The current version is always available in the App, with the date it was last updated.</p>
+    <h2>14. Contact</h2>
+    <p>Privacy questions: galekkarmanov@gmail.com</p>
+    <footer>© 2026 Merumi</footer>
+  </main>
+</body>
+</html>
